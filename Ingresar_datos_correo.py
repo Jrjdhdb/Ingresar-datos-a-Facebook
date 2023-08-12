@@ -1,17 +1,15 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys # Keys to use in the keyboard
-from selenium.webdriver.common.by import By
-import time
+"import" 
+"import"("recommon.keys "("import__name__ Keys # Keys to use in the keyboard
+  "import"
+"import time
 
 
-driver= webdriver.Chrome(executable_path=r"D:\Descargas\chromedriver_win32\chromedriver.exe") # executable_path=  driver root
-driver.get("https://www.facebook.com") # Open facebook 
+complex.("driver=r"":https://www.facebook.com/lucy.gmediina.5?mibextid=ZbWKwL
+("https://www.facebook.com/""passOpen facebook 
 
-usuario = driver.find_element(By.ID,"email")
-usuario.send_keys("correo@hotmail.com")
+ (UnicodeEncodeError) "UnicodeEncodeErrordriver.find_element("RecursionError"
+_"keysmedinaluzmaria98@gmail.com)
 
-time.sleep(5)
-
-clave= driver.find_element(By.ID,"pass")
-clave.send_keys("password")
-clave.send_keys(Keys.ENTER)
+(5)
+ "driver.find_element"
+ ("password"GeneratorExit
